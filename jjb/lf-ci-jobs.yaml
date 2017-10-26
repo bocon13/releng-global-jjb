@@ -2,7 +2,7 @@
 - job-group:
     name: '{project-name}-ci-jobs'
 
-    jjb-version: 1.6.2
+    jjb-version: 2.0.0.0b2
 
     jobs:
       - gerrit-jjb-deploy-job
@@ -12,7 +12,7 @@
 - job-group:
     name: '{project-name}-github-ci-jobs'
 
-    jjb-version: 1.6.2
+    jjb-version: 2.0.0.0b2
 
     jobs:
       - github-jjb-deploy-job
